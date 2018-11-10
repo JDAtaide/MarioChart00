@@ -1,0 +1,41 @@
+﻿<div class="main" ng-app="AppMC">
+
+
+    <div class="container-fluid" ng-cloak>
+        <div ng-controller="DetalhesController">
+
+
+            <form name="form1">
+         
+                 <div class="col-12">
+                     <div ui-grid="ActivityListGrid" class="myGrid"></div>
+                 </div>
+
+                   <br />
+                <div>
+                    <label class="control-label">Total Ganho:</label>
+                    <label class="control-label text-success" id="lblPMim">{{TotalGanho| currency: "€"}}</label>
+                </div>
+                <br />
+                <br />
+            </form>
+        </div>
+    </div>
+
+
+<!--    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap/js/bootstrap.min.js"></script>
+    <script src="Scripts/Angular/angular.js"></script>
+    <script src="Scripts/UiGrid/ui-grid.js"></script>
+    <script src="Scripts/sweetAlert/sweetalert2.js"></script>-->
+    <!--MainApp-->
+<!--    <script src="AppMC.js"></script>-->
+    <!--  Controllers-->
+  <!--  <script src="Controllers/DetalhesActividades.js"></script>-->
+     <!--Services-->
+   <!-- <script src="Services/utilService.js"></script>-->
+
+    <!--<script type="text/javascript">
+        var ws = 'WebServices/wsActividades.asmx/';
+    </script>-->
+</div>

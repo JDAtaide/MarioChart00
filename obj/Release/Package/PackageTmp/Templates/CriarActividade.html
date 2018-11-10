@@ -1,0 +1,105 @@
+﻿<h1>{{msg}}</h1>
+<div class="main" ng-app="AppMC">
+
+    <div class="container-fluid" ng-cloak>
+        <div ng-controller="CriarActController">
+
+            <form name="form1">
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="control-label">Data de Registo: </label>
+                            <input type="date" name="dataRegisto" class="form-control" ng-model="dataRegisto"
+                                ng-class="{ 'alert alert-danger': form1.dataRegisto.$invalid}" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="control-label">Duração: </label>
+                            <input type="time" name="duracao" class="form-control" ng-model="duracao"
+                                ng-class="{ 'alert alert-danger': form1.duracao.$invalid}" required />
+                            <span ng-show="form1.duracao.$invalid" class="redAlert small">Campo obrigatório.</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="control-label">Valor Cobrado: </label>
+                            <input type="number" name="valorCobrado" class="form-control" ng-model="valorCobrado" required
+                                ng-class="{ 'alert alert-danger': form1.valorCobrado.$invalid}" />
+                            <span ng-show="form1.valorCobrado.$invalid" class="redAlert small">Campo obrigatório.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="control-label">Percentagem que ganho: </label>
+                            <input type="number" name="percentagem" class="form-control" ng-model="percentagem" required
+                                ng-class="{ 'alert alert-danger': form1.percentagem.$invalid}" />
+                            <span ng-show="form1.percentagem.$invalid" class="redAlert small">Campo obrigatório.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                           <label class="control-label col-6">Eu ganho: </label>      
+                            <label class="control-label col-6 text-success" id="lblPMim">{{valorCobrado * (percentagem / 100)| currency: "€" }}</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                           <label class="control-label col-6"> O Boss ganha: </label> 
+                            <label class="control-label col-6 text-info" id="lblPBoss"> {{valorCobrado * ((100 - percentagem) / 100)| currency: "€" }}</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="control-label">Observações: </label>
+                            <textarea rows="4" cols="50" name="obs" class="form-control " ng-model="obs" ng-class="{ 'alert alert-danger': form1.obs.$invalid}"></textarea>
+                            <span ng-show="form1.obs.$invalid" class="redAlert small">Campo obrigatório.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label>Tipo de Actividade:</label>
+                            <select name="slTipoDeActividade" class="form-control"
+                                ng-model="newTipoDeActividadeId"
+                                ng-options="o.Id as o.Tipo for o in ListTipoDeActividade"
+                                class="ng-valid ng-dirty ng-valid-parse ng-touched"
+                                ng-class="{'alert-danger': form1.slTipoDeActividade.$invalid }"
+                                required>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-12">
+                     <!--   <input type="button" class="btn btn-secondary btn-block" value="Cancelar" ng-click="Cancelar()" />-->
+                        <button class="btn btn-primary btn-block" ng-click="SalvarPubCrawl()">Salvar</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+

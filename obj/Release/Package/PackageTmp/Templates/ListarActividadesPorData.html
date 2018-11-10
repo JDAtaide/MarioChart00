@@ -1,0 +1,76 @@
+﻿<h1>Listar Actividades</h1>
+
+<div class="main" ng-app="AppMC">
+    <div class="container-fluid" ng-cloak>
+        <div ng-controller="ListarActividadesController">
+
+            <br />
+            <form name="form1">
+
+
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                    <button
+                        class="btn btn-primary"
+                        type="button"
+                        id="Button1"
+                        ng-click="ShowSearchByDate()">
+                        Pesquisar por Data
+                    </button>
+
+                    <button
+                        class="btn btn-dark"
+                        type="button"
+                        id="Button2"
+                        ng-click="getAllListByDate()">
+                        Pesquisar Todas as Datas
+                    </button>
+
+                </div>
+                <br />
+                <br />
+                <div class="painelDePesquisa" ng-if="searchByDate">
+                    <div class="row">
+                        <div class="col-12">
+
+                            <div class="input-group">
+
+                                <select name="slDatasAConsultar" class="form-control" id="slDatasAConsultar"
+                                    ng-model="DataEscolhida"
+                                    ng-options="o as o for o in AllDatesList"
+                                    class="ng-valid ng-dirty ng-valid-parse ng-touched"
+                                    ng-class="{'alert-danger': form1.slTipoDeActividade.$invalid }"
+                                    required>
+                                </select>
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button" id="btnVerificar" ng-click="getListByDate()" ng-disabled="userForm.formAppUserManager.$invalid">Pesquisar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+
+
+                <div class="col-12">
+                    <div ui-grid="ListByDateGrid" class="myGrid" ng-if="searchMode"></div>
+                    <!-- <label>Total: {{totalDiario}}</label>-->
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-3 offset-9">
+                        <div ng-hide="!searchMode">
+                            <label class="control-label">Total Ganho:</label>
+                            <label class="control-label text-success" id="lblPMim">{{TotalGanho| currency: "€"}}</label>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+
+            </form>
+        </div>
+    </div>
+
+</div>
+

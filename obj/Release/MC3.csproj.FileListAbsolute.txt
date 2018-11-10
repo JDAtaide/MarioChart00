@@ -1,0 +1,9 @@
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\bin\MC3.dll
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\bin\MC3.pdb
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\bin\EntityFramework.dll
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\bin\EntityFramework.SqlServer.dll
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\bin\EntityFramework.xml
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\bin\EntityFramework.SqlServer.xml
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\obj\Release\MC3.csprojResolveAssemblyReference.cache
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\obj\Release\MC3.dll
+C:\Users\jataide\Documents\Visual Studio 2012\Projects\MC3\MC3\obj\Release\MC3.pdb

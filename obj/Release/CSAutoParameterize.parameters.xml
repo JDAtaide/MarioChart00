@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MCDBContext-Web.config Connection String" description="MCDBContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:jaysystems.database.windows.net;Initial Catalog=MCDBContext;Persist Security Info=False;User ID=jaysystems;Password=fatality#1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\jataide\\Documents\\Visual\ Studio\ 2012\\Projects\\MC3\\MC3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MCDBContext']/@connectionString" />
+  </parameter>
+</parameters>

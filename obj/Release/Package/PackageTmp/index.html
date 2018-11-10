@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Criar Actividade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="Scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Scripts/bootstrap/css/bootstrap-glyphicons.css" rel="stylesheet" />
+    <link href="Scripts/UiGrid/ui-grid.css" rel="stylesheet" />
+    <link href="Css/myStyle.css" rel="stylesheet" />
+</head>
+<body class="main" ng-app="AppMC">
+
+
+    <!--    <div class="container-fluid" ng-cloak>-->
+    <div class="container" ng-cloak>
+        <div ng-controller="InicioController">
+
+
+
+            <div class="navbar-header col-12">
+
+                <span class="glyphicon glyphicon-arrow-left" ng-click="historyBack()"></span>
+
+                <a class="logoLink col-3" href="#/home">The Chart</a>
+
+                <button class="btn navbar-toggle collapsed btnHamburger" data-toggle="collapse" data-target="#mydropdown">
+                    <span class="glyphicon glyphicon-th-list"></span>
+                </button>
+
+
+                <div class="col-3 offset-9">
+                    <div class="collapse navbar-collapse" id="mydropdown">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#/home"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                            <li><a href="#/CriarActividade">Criar Actividade</a></li>
+                            <li><a href="#/ListarActividadesPorData">Listar ActividadesPorData</a></li>
+                            <li><a href="#/DetalhesActividades">DetalhesActividades</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <br />
+
+                <div class="mainContent">
+                    <ng-view></ng-view>
+                </div>
+                <!-- </form>-->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="Scripts/jquery.min.js"></script>
+    <script src="Scripts/bootstrap/js/bootstrap.min.js"></script>
+    <!--   <script src="Scripts/bootstrap/js/popper.min.js"></script>-->
+    <script src="Scripts/bootstrap/js/popper.js"></script>
+    <script src="Scripts/Angular/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.js"></script>
+    <script src="Scripts/Angular/angular-route.js"></script>
+    <script src="Scripts/UiGrid/ui-grid.js"></script>
+    <script src="Scripts/sweetAlert/sweetalert2.js"></script>
+    <!--MainApp-->
+    <script src="AppMC.js"></script>
+    <!--  Controllers-->
+    <script src="Controllers/inicioController.js"></script>
+    <script src="../Controllers/homeController.js"></script>
+    <script src="Controllers/CriarActividade.js"></script>
+    <script src="Controllers/DetalhesActividades.js"></script>
+    <script src="Controllers/ListarActividadesController.js"></script>
+    <!--Services-->
+    <script src="Services/utilService.js"></script>
+
+
+    <script type="text/javascript">
+        var ws = 'WebServices/wsActividades.asmx/';
+    </script>
+</body>
+</html>

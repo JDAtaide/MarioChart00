@@ -1,0 +1,21 @@
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\bin\MC3.dll
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\bin\MC3.pdb
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\bin\EntityFramework.dll
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\bin\EntityFramework.SqlServer.dll
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\bin\EntityFramework.xml
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\bin\EntityFramework.SqlServer.xml
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\obj\Debug\MC3.csprojResolveAssemblyReference.cache
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\obj\Debug\MC3.dll
+c:\users\jataide\documents\visual studio 2012\Projects\MC3\MC3\obj\Debug\MC3.pdb
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\bin\MC3.dll.config
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\bin\MC3.dll
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\bin\MC3.pdb
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\bin\EntityFramework.dll
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\bin\EntityFramework.SqlServer.dll
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\bin\EntityFramework.xml
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\bin\EntityFramework.SqlServer.xml
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\obj\Debug\MC3.csprojAssemblyReference.cache
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\obj\Debug\MC3.csproj.CoreCompileInputs.cache
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\obj\Debug\MC3.csproj.CopyComplete
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\obj\Debug\MC3.dll
+C:\Users\Joao Ataide\Documents\Visual Studio 2017\Projects\MC3\MC3\obj\Debug\MC3.pdb

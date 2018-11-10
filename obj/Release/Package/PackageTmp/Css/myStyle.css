@@ -1,0 +1,86 @@
+﻿.myGrid .ui-grid-row .btnCell {
+    background-color: white;
+    width: 60px;
+}
+
+.ui-grid-header-cell-wrapper {
+    display: block;
+}
+
+.ui-grid-header-cell-row {
+    display: block;
+}
+
+.ui-grid-header-cell {
+    display: block;
+    float: left;
+}
+
+#lblPMim {
+    font-family: 'Arial';
+    font-size: 36px;
+}
+
+
+#lblPBoss {
+    font-family: 'Arial';
+    font-size: 36px;
+}
+
+
+.logoLink {
+    font-family: 'Arial';
+    font-size: 30px;
+    color: white;
+    margin-top: 14px;
+    text-align: center;
+}
+
+a.logoLink:visited {
+    color: white;
+}
+
+a.logoLink:visited, a.logoLink:hover {
+    text-decoration: none;
+}
+
+.btnHamburger {
+    background-color: rgb(46, 92, 107);
+    float: right;
+    height: 38px;
+    margin-top: 4px;
+    /*border-width:3px;*/
+    border-color: white;
+}
+
+.glyphicon-th-list {
+    color: white;
+    background-color: rgb(46, 92, 107);
+}
+
+.glyphicon-arrow-left {
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+.navbar-header {
+    height: 50px;
+    background-color: rgb(46, 92, 107);
+}
+
+.btnSelect {
+    height: 200px;
+    background-color: rgb(60, 92, 170);
+    /*padding: 10px;*/
+    /*padding-left:10px;
+    padding-right:10px;*/
+    /*margin: 2px;*/
+    font-family: 'Arial';
+    font-size: 36px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
